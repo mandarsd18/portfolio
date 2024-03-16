@@ -21,7 +21,7 @@ const Skills = () => {
     ]
   return (
    <>
-   <div id='skills' className='w-[90%] sm:w-[80%] mx-auto mt-10'>
+   <div id='skills' className='w-[90%] sm:w-[80%] mx-auto mt-10 mb-8'>
     <div className='w-full md:w-[80%] lg:w-[60%] mx-auto'>
         <h1 className='text-3xl font-bold text-center my-6'>My Skills</h1>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">

@@ -11,8 +11,8 @@ import{AiFillInstagram} from 'react-icons/ai'
 const Herosection = () => {
   return (
     <>
-      <div className="w-[90%] sm:w-[80%] mx-auto h-[90vh] flex flex-col items-center justify-center gap-4">
-        <div className="border border-1 bg-yellow-500 rounded-full w-[40%] mx-auto sm:w-[30%] lg:w-[20%] overflow-hidden">
+      <div className="w-[90%] sm:w-[80%] mx-auto h-[88vh] flex flex-col items-center justify-center gap-4">
+        <div className="border border-1 bg-yellow-500 rounded-full w-[50%] mx-auto sm:w-[30%] lg:w-[20%] overflow-hidden">
           <img src={face} alt="" className="w-full mx-auto" />
         </div>
         <div className="flex flex-col gap-2 items-center justify-center w-full sm:w-[80%] md:w-[60%] lg:w[40%] mx-auto">
@@ -28,7 +28,7 @@ const Herosection = () => {
           </p>
         </div>
         <div className="flex items-center justify-center gap-3 bg-yellow-500 px-3 text-white py-2 rounded-full">
-          <a href={resume} download="resume" className="flex items-center justify-center gap-2 font-semibold">Download CV <MdOutlineFileDownload/></a>
+          <a href={resume} download="resume" className="flex items-center text-sm sm:text-baseS justify-center gap-2 font-semibold">Download CV <MdOutlineFileDownload/></a>
           
         </div>
         <div className="flex items-center justify-center gap-2">

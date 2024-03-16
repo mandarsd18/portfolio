@@ -46,7 +46,7 @@ const Contact = () => {
     <>
       <div className="w-full" id="contact">
         <div className="w-[90%] sm:w-[80%] mx-auto py-4 ">
-          <h1 className="font-bold text-2xl md:text-3xl mb-4">
+          <h1 className="font-bold text-2xl md:text-3xl mb-6">
             Send us a message :
           </h1>
           <div className="flex flex-wrap md:flex-nowrap  w-full items-center justify-center gap-4 lg:gap-x-28 bg-white p-5 rounded-md shadow-sm">

@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <div className="w-[90%] sm:w-[80%] mx-auto mt-8" id="projects">
-        <div className="mb-8">
+        <div className="mb-8 sm:mb-9">
           <h1 className="text-3xl font-bold text-center">My Projects</h1>
         </div>
         <div className="columns-1 sm:columns-2">
