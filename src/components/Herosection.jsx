@@ -11,7 +11,7 @@ import{AiFillInstagram} from 'react-icons/ai'
 const Herosection = () => {
   return (
     <>
-      <div className="w-[90%] sm:w-[80%] mx-auto h-[90vh] flex flex-col items-center justify-center gap-6">
+      <div className="w-[90%] sm:w-[80%] mx-auto h-[90vh] flex flex-col items-center justify-center gap-4">
         <div className="border border-1 bg-yellow-500 rounded-full w-[40%] mx-auto sm:w-[30%] lg:w-[20%] overflow-hidden">
           <img src={face} alt="" className="w-full mx-auto" />
         </div>
@@ -23,17 +23,15 @@ const Herosection = () => {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
             A Full-Stack Web Developer
           </h1>
-          <p className="text-xs sm:text-sm text-center font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            quidem non ducimus deleniti veritatis voluptatum! Nihil enim,
-            incidunt sunt eveniet excepturi reprehenderit odit.
+          <p className="text-xs sm:text-sm text-center mt-2  font-semibold">
+          "Passionate web developer with comprehensive knowledge of the MERN stack, proficiently crafting dynamic, scalable, and immersive web solutions for diverse projects."
           </p>
         </div>
         <div className="flex items-center justify-center gap-3 bg-yellow-500 px-3 text-white py-2 rounded-full">
           <a href={resume} download="resume" className="flex items-center justify-center gap-2 font-semibold">Download CV <MdOutlineFileDownload/></a>
           
         </div>
-        <div className="flex items-center justify-center gap-2 mt-3">
+        <div className="flex items-center justify-center gap-2">
               <a className=" cursor-pointer" href="https://github.com/mandarsd18" target="blank">
                 <FaGithub className=" text-yellow-500 text-2xl" />
               </a>
